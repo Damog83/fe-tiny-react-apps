@@ -41,7 +41,14 @@ const [task, setTask] = useState('')
        copy.push({text:task, checked: false});
        return copy;
        })}}}>Add</button>
-    <button>Remove</button>
+
+    <button onClick= {() => {
+      {setList((currentList) => {
+       const copy = [...currentList]
+       const filterCopy = copy.filter(task => task.checked === false) 
+            return filterCopy
+      })}
+    }}>Remove</button>
     </div>
   );
 
