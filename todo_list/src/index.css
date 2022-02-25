@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h {
+  text-align: center;
+  color: #050303;
+  font-weight: 600;
+  font-size: 7.5rem;
+}
+
+li {
+  text-align: centre;
+  color: #050303;
+  font-weight: 400;
+  font-size: 5rem;
+}
+
+legend {
+  text-align: left;
+  color: #050303;
+  font-weight: 200;
+  font-size: 2rem;
+}
